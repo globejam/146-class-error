@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene >
+            <a-entity position="0 0 15">
+                <a-camera ></a-camera>
+            </a-entity>
+           <!-- sun-->
+            <a-entity>
+                <a-box position="0 0 0"></a-box>
+                <a-sphere color="orange" position="'0 0 0" radius="2"></a-sphere>
+            </a-entity>
+            <!--Mercury-->
+            <a-entity>
+                <a-sphere color="red" position="'10 0 0" radius="0.3"></a-sphere>
+            </a-entity>
+           
+        </a-scene>
+    </body>
+</html>
